@@ -8,7 +8,7 @@ C.H. Robinson web app for path finding.
 Code for Django project root can be found in the north_american_transport folder while the frontend can be found in the path_finder folder, mostly in the `views.py` file.
 
 
-Breadth first search was used to find routes between the countries. The data was modeled simply as a dictionary (see `views.py`). Originially, the data points (countries) were associated with one another by the django `ManyToManyField`. Each country was given as ID (1,2,3,...) which was used as the primary key. I thought I could simply convert this into a temporary Node class and run BFS on the collection of associated points. However, this proved not to be as simple as I'd hoped, and I ended up changing the way I modeled the data. The original model for countries can still be found in `models.py`. 
+Breadth first search was used to find routes between the countries. The data was modeled as a dictionary (see `views.py`). Originially, the data points (countries) were associated with one another by the django `ManyToManyField`. Each country was given as ID (1,2,3,...) which was used as the primary key. I thought I could simply convert this into a temporary Node class and run BFS on the collection of associated points. However, this proved not to be as simple as I'd hoped, and I ended up changing the way I modeled the data. The original model for countries can still be found in `models.py`. 
 
 
 

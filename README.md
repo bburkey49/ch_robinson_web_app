@@ -28,5 +28,5 @@ Initially, the data was modeled using Django's model library, as can be seen in 
 
 # Stack
 
-Python is by far one of my favorite languages. It's extremely versatile and perfect for projects like this. Frameworks like Django make web application implementation straight forward and simple, allowing me to focus more on the "business" and application logic. HTML and CSS are a given, but I couldn't help myself from loading in the Bootstrap 4 CDN to spruce up the nav bar (sorry I stole your logo, looked too nice). Finally, the app is hosted on PythonAnywhere. It was free and easy to use as well as set up. Very well documented. 
+Python is by far one of my favorite languages. It's extremely versatile and perfect for projects like this. Frameworks like Django make web application implementation straight forward and simple, allowing me to focus more on the "business" and application logic. HTML and CSS are a given, but I couldn't help myself from loading in the Bootstrap 4 CDN to spruce up the nav bar (sorry I stole your logo, looked too nice). Finally, for development, I set up an ngrok tunnel to test the usability of the site before deployment. Currently, the app is hosted on PythonAnywhere.com. It was free and easy to use as well as set up. Very well documented. 
 

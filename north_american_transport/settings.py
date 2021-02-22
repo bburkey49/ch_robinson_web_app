@@ -27,7 +27,7 @@ DEBUG = True
 
 
 # development
-ALLOWED_HOSTS = ['ad67d80129a0.ngrok.io', 'localhost']
+ALLOWED_HOSTS = ['ad67d80129a0.ngrok.io', 'localhost', 'bburkey49.pythonanywhere.com']
 
 
 # Application definition
@@ -122,6 +122,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# STATIC_ROOT = 
 
 MEDIA_URL = '/assets/'
 

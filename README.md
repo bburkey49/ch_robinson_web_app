@@ -3,7 +3,7 @@
 C.H. Robinson web app for path finding.
 
 
-# Application Logic
+# Application Tier
 
 Code for Django project root can be found in the north_american_transport folder while the frontend can be found in the path_finder folder, mostly in the `views.py` file.
 
@@ -12,17 +12,21 @@ Breadth first search was used to find routes between the countries. The data was
 
 
 
-# Presentation Logic
+# Presentation Tier
 
 Django forms were used to read input from users (see `forms.py`). This greatly simplified the process of retrieving the data, manipulating it, and returning new data. Also, a huge benefit was constraints could be placed directly on the forms themselves such as max character length. And, to provide an aesthetic touch, the django-crispy-forms library was used to 'crisp' up those visuals. Django-crispy-forms is another great library, as it allowed me to customize the form's visual properties directly on the form right from its initialization, rather than strewn about in html and css.
 
 The app consists of only one page. Static files can be found in the `/static/` and `/assets/` folders. The `index` page waits for a post request in the form of a form (haha), cleans and validates the data, and sends the generated list of strings back to the client. The map was provided for testing purposes and additional visual detail.
 
+Borders were placed around the different sections to draw the users' attention to the page organization. 
 
-# Data 
+
+# Data Tier
 
 Initially, the data was modeled using Django's model library, as can be seen in `map_data.json`. The data were then loaded in as fixtures pre-deployment. They were associated with a sqlite3 database, as is the default for Django projects. This made the initial set up of the web app easy and lightweight, but my approach to solving the shortest path problem conflicted with this structure. After too many failures to count, I decided I would use python's native dictionary structure, which proved to be much more manageable.
 
 
+# Stack
 
+Python is by far one of my favorite languages. It's extremely versatile and perfect for projects like this. Frameworks like Django make web application implementation straight forward and simple, allowing me to focus more on the "business" and application logic. HTML and CSS are a given, but I couldn't help myself from loading in the Bootstrap 4 CDN to spruce up the nav bar (sorry I stole your logo, looked too nice). Finally, the app is hosted on PythonAnywhere. It was free and easy to use as well as set up. Very well documented. 
 

@@ -1,0 +1,92 @@
+[
+    {
+      "model": "path_finder.country",
+      "pk": 1,
+      "fields": {
+        "name": "CAN",
+        "borders": [2],
+        "dist" : 1
+      }
+    },
+    {
+      "model": "path_finder.country",
+      "pk": 2,
+      "fields": {
+        "name": "USA",
+        "borders": [1,3],
+        "dist" : 0
+      }
+    },
+    {
+        "model": "path_finder.country",
+        "pk": 3,
+        "fields": {
+          "name": "MEX",
+          "borders": [2,4,5],
+          "dist" : 1
+      }
+    },
+    {
+        "model": "path_finder.country",
+        "pk": 4,
+        "fields": {
+          "name": "BLZ",
+          "borders": [3,5],
+          "dist" : 2
+      }
+    },
+    {
+        "model": "path_finder.country",
+        "pk": 5,
+        "fields": {
+          "name": "GTM",
+          "borders": [3,4,6,7],
+          "dist" : 2
+      }
+    },
+    {
+        "model": "path_finder.country",
+        "pk": 6,
+        "fields": {
+          "name": "SLV",
+          "borders": [5,7],
+          "dist" : 3
+      }
+    },
+    {
+        "model": "path_finder.country",
+        "pk": 7,
+        "fields": {
+          "name": "HND",
+          "borders": [5,6,8],
+          "dist" : 3
+      }
+    },
+    {
+        "model": "path_finder.country",
+        "pk": 8,
+        "fields": {
+          "name": "NIC",
+          "borders": [7,9],
+          "dist" : 4
+      }
+    },
+    {
+        "model": "path_finder.country",
+        "pk": 9,
+        "fields": {
+          "name": "CRI",
+          "borders": [8,10],
+          "dist" : 5
+      }
+    },
+    {
+        "model": "path_finder.country",
+        "pk": 10,
+        "fields": {
+          "name": "PAN",
+          "borders": [9],
+          "dist" : 6
+      }
+    }
+]

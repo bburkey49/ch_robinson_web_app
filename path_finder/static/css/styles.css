@@ -1,0 +1,32 @@
+.navbar {
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+
+#intro {
+    margin: 10px 0px;
+}
+
+#panel {
+    margin: 20px 100px;
+    
+}
+
+/* #submit-form {
+    margin: auto;
+} */
+
+.border {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+#my-submit {
+    width: 100%;
+}
